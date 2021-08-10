@@ -1,0 +1,32 @@
+.subtitle {
+  color: #666;
+  text-transform: uppercase;
+  font: 1em;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column-70 {
+  flex: 70%;
+}
+
+.column-30 {
+  flex: 30%;
+}
+
+.card {
+  background-color: #efefef;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.post {
+  margin: 2 1;
+}

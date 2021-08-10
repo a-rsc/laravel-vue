@@ -1,0 +1,67 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+body {
+    padding: 10px 20px;
+}
+
+[v-cloak] > * {
+    display: none;
+}
+
+[v-cloak]::before {
+    content: "Cargando...";
+}
+
+.title {
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+.title span {
+    float: right;
+    font-size: 1.5rem;
+    color: deeppink;
+}
+
+.lesson {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.lesson > h1 {
+    color: midnightblue;
+}
+
+.lesson > h2 {
+    color: deeppink;
+}
+
+pre code {
+    padding: 10px;
+    display: block;
+
+    background-color: #EAEAEA;
+    border: 1px solid #999;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
