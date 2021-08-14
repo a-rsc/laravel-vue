@@ -16,4 +16,5 @@ mix.js('resources/js/app.js', 'public/js')
     .vue()
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/8a.scss', 'public/css')
-    .sass('resources/sass/37.scss', 'public/css');
+    .sass('resources/sass/37.scss', 'public/css')
+    .sass('resources/sass/39.scss', 'public/css');

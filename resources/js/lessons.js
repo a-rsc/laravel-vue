@@ -41,6 +41,10 @@ const lessons = new Vue({
             {num: 35, title: 'Promesas', file: 35},
             {num: 36, title: 'Conjunto de promesas', file: 36},
             {num: 37, title: 'Inline templates', file: 37},
+            {num: 38, title: 'Slots', file: 38},
+            {num: 39, title: 'Transiciones / Animaciones I', file: 39},
+            {num: 40, title: 'Transiciones / Animaciones II', file: 40},
+            {num: 41, title: 'Instalación NodeJS', file: 41},
         ]
     },
     methods: {
